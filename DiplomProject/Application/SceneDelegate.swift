@@ -10,6 +10,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    var mainCoordinator: Coordinator?
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -18,9 +19,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = ViewController()
+        let mainCoordinator = MainCoordinator(rootViewController: UIViewController())
+        
+        window.rootViewController = mainCoordinator.start()
         window.makeKeyAndVisible()
+        
         self.window = window
+        self.mainCoordinator = mainCoordinator
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
