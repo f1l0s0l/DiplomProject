@@ -3,6 +3,7 @@ import UIKit
 final class FeedViewController: UICollectionViewController {
     
     // MARK: - Private properties
+    private let model: FeedViewModel
     
     private lazy var layout: UICollectionViewCompositionalLayout = {
         let layout = UICollectionViewCompositionalLayout { [weak self] sectionIndex, environment in
@@ -14,6 +15,14 @@ final class FeedViewController: UICollectionViewController {
     }()
     
     // MARK: - Lifecycles
+    
+    init(model: FeedViewModel) {
+        self.model = model
+        
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) { fatalError() }
     
     override func loadView() {
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
@@ -47,9 +56,9 @@ extension FeedViewController {
         let section = Section(rawValue: section)!
         switch section {
         case .stories:
-            return 30
+            return model.stories.count
         case .feed:
-            return 50
+            return model.items.count
         }
     }
     
@@ -57,13 +66,22 @@ extension FeedViewController {
         let section = Section(rawValue: indexPath.section)!
         switch section {
         case .stories:
+            let story = model.stories[indexPath.item]
             let cell = collectionView.dequeueReusableCell(class: FeedStoriesCollectionCell.self, for: indexPath)
-            cell.backgroundColor = .green
+            cell.render(story: story)
             return cell
         case .feed:
-            let cell = collectionView.dequeueReusableCell(class: FeedPostCollectionCell.self, for: indexPath)
-            cell.backgroundColor = .yellow
-            return cell
+            let item = model.items[indexPath.item]
+            switch item {
+            case .post(let post):
+                let cell = collectionView.dequeueReusableCell(class: FeedPostCollectionCell.self, for: indexPath)
+                cell.render(post: post)
+                return cell
+            case .date(let dateString):
+                let cell = collectionView.dequeueReusableCell(class: FeedDateCollectionCell.self, for: indexPath)
+                cell.render(date: dateString)
+                return cell
+            }
         }
     }
 }
@@ -108,7 +126,7 @@ extension FeedViewController {
             let group = NSCollectionLayoutGroup.vertical(layoutSize: groupSize, subitems: [item])
             
             let section = NSCollectionLayoutSection(group: group)
-            section.interGroupSpacing = 20
+            section.interGroupSpacing = 1
             return section
         }
     }

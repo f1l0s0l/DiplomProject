@@ -30,7 +30,8 @@ final class FeedCoordinator {
 
 extension FeedCoordinator: Coordinator {
     func start() -> UIViewController {
-        let feedViewController = FeedViewController()
+        let model = FeedViewModel()
+        let feedViewController = FeedViewController(model: model)
         feedViewController.title = "Feed"
         
         let navigationController = UINavigationController(rootViewController: feedViewController)
