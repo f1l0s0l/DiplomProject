@@ -31,6 +31,7 @@ final class FeedCoordinator {
 extension FeedCoordinator: Coordinator {
     func start() -> UIViewController {
         let feedViewController = FeedViewController()
+        feedViewController.title = "Feed"
         
         let navigationController = UINavigationController(rootViewController: feedViewController)
         let tabBarItem = UITabBarItem(
