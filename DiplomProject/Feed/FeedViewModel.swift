@@ -1,7 +1,7 @@
 import UIKit
 
 final class FeedViewModel {
-    private(set) var stories: [FeedStoryModel] = FeedStoryModel.mock
+    private(set) var stories: [FeedStoryModel] = []//FeedStoryModel.mock
     private(set) var items: [Item] = Item.testPostsMock()
 }
 
