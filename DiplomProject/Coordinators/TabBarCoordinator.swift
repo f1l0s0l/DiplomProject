@@ -3,14 +3,19 @@ import UIKit
 final class TabBarCoordinator {
     
     // MARK: - Private properties
-    private var childCoordinators: [Coordinator] = []
-    
+    private weak var parentCoordinator: MainCoordinatorParentDelegate?
+
+    private var childCoordinators: [Coordinator] = []    
     private var tabBarController: UITabBarController
+    
+    private let client: APIClient
     
     // MARK: - Lifecycles
 
-    init() {
+    init(parentCoordinator: MainCoordinatorParentDelegate?, client: APIClient) {
+        self.parentCoordinator = parentCoordinator
         tabBarController = UITabBarController()
+        self.client = client
     }
     
     // MARK: - Private methods
@@ -27,14 +32,21 @@ final class TabBarCoordinator {
     }
 
     private func makeFeedCoordinator() -> Coordinator {
-        let feedCoordinator = FeedCoordinator()
+        let feedCoordinator = FeedCoordinator(client: client)
         return feedCoordinator
+    }
+    
+    private func makeSettingsCoordinator() -> Coordinator {
+        let settingsCoordinator = SettingsCoordinator()
+        return settingsCoordinator
     }
     
     private func setupTabBarController(viewControllers: [UIViewController]) {
         self.tabBarController.setViewControllers(viewControllers, animated: false)
-        self.tabBarController.tabBar.backgroundColor = .white
-        self.tabBarController.tabBar.tintColor = .black
+        
+        tabBarController.tabBar.tintColor = .orange
+        tabBarController.tabBar.unselectedItemTintColor = .gray
+        tabBarController.tabBar.backgroundColor = .white
     }
 }
 
@@ -42,11 +54,15 @@ final class TabBarCoordinator {
 
 extension TabBarCoordinator: Coordinator {
     func start() -> UIViewController {
-        let feedCoordinator = self.makeFeedCoordinator()
-        self.addChildCoordinator(feedCoordinator)
-
-        self.setupTabBarController(viewControllers: [
-            feedCoordinator.start()
+        let feedCoordinator = makeFeedCoordinator()
+        addChildCoordinator(feedCoordinator)
+        
+        let settingsCoordinator = makeSettingsCoordinator()
+        addChildCoordinator(settingsCoordinator)
+        
+        setupTabBarController(viewControllers: [
+            feedCoordinator.start(),
+            settingsCoordinator.start()
         ])
                 
         return self.tabBarController

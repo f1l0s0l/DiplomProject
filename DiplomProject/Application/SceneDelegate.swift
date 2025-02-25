@@ -26,6 +26,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         self.window = window
         self.mainCoordinator = mainCoordinator
+        
+//        let request = API.getFriends(parameters: [:])
+        
+//        print(request.method)
+        
+//        let client = MockAPIClient()
+//        let request = API.getFriends(parameters: [:], userId: "UHwc5gRdVObEFnb66qymee9Exim1")
+//        client.perform(request: request) { result in
+//            switch result {
+//            case .success(let friends):
+//                print(friends)
+//            case .failure(let error):
+//                print("ОШИБКА!!!!! \(error)")
+//            }
+//        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

@@ -1,9 +1,10 @@
 import UIKit
+import FirebaseFirestore
 
 final class FeedViewController: UICollectionViewController {
     
     // MARK: - Private properties
-    private let model: FeedViewModel
+    private let viewModel: FeedViewModel
     
     private lazy var layout: UICollectionViewCompositionalLayout = {
         let layout = UICollectionViewCompositionalLayout { [weak self] sectionIndex, environment in
@@ -16,8 +17,8 @@ final class FeedViewController: UICollectionViewController {
     
     // MARK: - Lifecycles
     
-    init(model: FeedViewModel) {
-        self.model = model
+    init(viewModel: FeedViewModel) {
+        self.viewModel = viewModel
         
         super.init(nibName: nil, bundle: nil)
     }
@@ -34,15 +35,41 @@ final class FeedViewController: UICollectionViewController {
         ].forEach(collectionView.register)
         
         self.collectionView = collectionView
+        
+//        test(timestamp: 100000)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = .orange
+        bindViewModel()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        viewModel.loadPosts()
     }
     
     // MARK: - Private methods
+    
+    private func bindViewModel() {
+        viewModel.stateChanged = { [weak self] state in
+            guard let self else { return }
+            switch state {
+            case .initial:
+                break
+            case .loading:
+                break // activityInducator.start()
+            case .loaded:
+                //activityIndicator.stop()
+                collectionView.reloadData()
+            case .wrong:
+                ()
+            }
+        }
+    }
 }
 
 // MARK: - DataSource
@@ -56,9 +83,9 @@ extension FeedViewController {
         let section = Section(rawValue: section)!
         switch section {
         case .stories:
-            return model.stories.count
+            return viewModel.stories.count
         case .feed:
-            return model.items.count
+            return viewModel.items.count
         }
     }
     
@@ -66,20 +93,23 @@ extension FeedViewController {
         let section = Section(rawValue: indexPath.section)!
         switch section {
         case .stories:
-            let story = model.stories[indexPath.item]
+            let story = viewModel.stories[indexPath.item]
             let cell = collectionView.dequeueReusableCell(class: FeedStoriesCollectionCell.self, for: indexPath)
             cell.render(story: story)
             return cell
         case .feed:
-            let item = model.items[indexPath.item]
+            let item = viewModel.items[indexPath.item]
             switch item {
-            case .post(let post):
+            case .post(let postId):
+                let post = viewModel.posts[postId]!
+                let user = viewModel.users[post.authorId]!
+                
                 let cell = collectionView.dequeueReusableCell(class: FeedPostCollectionCell.self, for: indexPath)
-                cell.render(post: post)
+                cell.render(post: post, author: user)
                 return cell
-            case .date(let dateString):
+            case .date(let date):
                 let cell = collectionView.dequeueReusableCell(class: FeedDateCollectionCell.self, for: indexPath)
-                cell.render(date: dateString)
+                cell.render(date: date)
                 return cell
             }
         }
@@ -115,19 +145,41 @@ extension FeedViewController {
         case .feed:
             let itemSize = NSCollectionLayoutSize(
                 widthDimension: .fractionalWidth(1.0),
-                heightDimension: .estimated(44)
+                heightDimension: .estimated(200)
             )
             let item = NSCollectionLayoutItem(layoutSize: itemSize)
             
             let groupSize = NSCollectionLayoutSize(
                 widthDimension: .fractionalWidth(1.0),
-                heightDimension: .estimated(44)
+                heightDimension: .estimated(200)
             )
             let group = NSCollectionLayoutGroup.vertical(layoutSize: groupSize, subitems: [item])
             
             let section = NSCollectionLayoutSection(group: group)
-            section.interGroupSpacing = 1
+//            section.interGroupSpacing = 1
+            
+            section.interGroupSpacing = 10
             return section
+        }
+    }
+}
+
+
+func test(timestamp: Int) {
+    let db = Firestore.firestore()
+
+    db.collection("posts").addDocument(data: [
+        "authorId": "UHwc5gRdVObEFnb66qymee9Exim1",
+        "autorName": "user1",
+        "commentsCount": 0,
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBkJigufyq00dk5hZq_acK0ix6Gq5LMj59Kg&s",
+        "text": "Это мой первый пост, не судите строго, пожалуйста!\nЧто бы мне рассказать про себя интересного?\nЭто третья строчка!\nЭто уже четвертая!\nА вот и пятая пошла\nИ шестая!",
+        "timestamp": 1709318120 + timestamp // 6 знаков
+    ]) { error in
+        if let error = error {
+            print("Ошибка при добавлении документа: \(error.localizedDescription)")
+        } else {
+            print("Документ успешно добавлен!")
         }
     }
 }

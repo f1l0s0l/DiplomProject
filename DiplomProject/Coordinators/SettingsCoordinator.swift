@@ -1,19 +1,16 @@
 import UIKit
 
-final class FeedCoordinator {
+final class SettingsCoordinator {
     
     // MARK: - Private Properties
     
     private var childCoordinators: [Coordinator] = []
     private var navigationController: UINavigationController
     
-    private let client: APIClient
-    
     // MARK: - Lifecycles
     
-    init(client: APIClient) {
+    init() {
         navigationController = UINavigationController()
-        self.client = client
     }
     
     // MARK: - Private Methods
@@ -32,17 +29,16 @@ final class FeedCoordinator {
 
 // MARK: - Coordinator
 
-extension FeedCoordinator: Coordinator {
+extension SettingsCoordinator: Coordinator {
     func start() -> UIViewController {
-        let viewModel = FeedViewModel(client: client)
-        let feedViewController = FeedViewController(viewModel: viewModel)
-        feedViewController.title = "Feed"
+        let settingsViewController = SettingsViewController()
+        settingsViewController.title = "Settings"
         
-        let navigationController = UINavigationController(rootViewController: feedViewController)
+        let navigationController = UINavigationController(rootViewController: settingsViewController)
         let tabBarItem = UITabBarItem(
-            title: "Feed",
-            image: UIImage(systemName: "square.stack"),
-            tag: 0
+            title: "Settings",
+            image: UIImage(systemName: "gear"),
+            tag: 1
         )
         navigationController.tabBarItem = tabBarItem
         

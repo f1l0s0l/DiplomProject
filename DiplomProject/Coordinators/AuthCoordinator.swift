@@ -1,19 +1,23 @@
 import UIKit
 
-final class FeedCoordinator {
+protocol AuthCoordinatorProtocol: AnyObject {
+    func auth()
+}
+
+final class AuthCoordinator {
     
     // MARK: - Private Properties
+    
+    private weak var parentCoordinator: MainCoordinatorParentDelegate?
     
     private var childCoordinators: [Coordinator] = []
     private var navigationController: UINavigationController
     
-    private let client: APIClient
-    
     // MARK: - Lifecycles
     
-    init(client: APIClient) {
+    init(parentCoordinator: MainCoordinatorParentDelegate?) {
+        self.parentCoordinator = parentCoordinator
         navigationController = UINavigationController()
-        self.client = client
     }
     
     // MARK: - Private Methods
@@ -32,21 +36,19 @@ final class FeedCoordinator {
 
 // MARK: - Coordinator
 
-extension FeedCoordinator: Coordinator {
+extension AuthCoordinator: Coordinator {
     func start() -> UIViewController {
-        let viewModel = FeedViewModel(client: client)
-        let feedViewController = FeedViewController(viewModel: viewModel)
-        feedViewController.title = "Feed"
-        
-        let navigationController = UINavigationController(rootViewController: feedViewController)
-        let tabBarItem = UITabBarItem(
-            title: "Feed",
-            image: UIImage(systemName: "square.stack"),
-            tag: 0
-        )
-        navigationController.tabBarItem = tabBarItem
-        
-        self.navigationController = navigationController
-        return self.navigationController
+        let authViewController = AuthViewController(coordinator: self)
+        navigationController = UINavigationController(rootViewController: authViewController)
+        return navigationController
+    }
+}
+
+
+// MARK: - AuthCoordinatorProtocol
+
+extension AuthCoordinator: AuthCoordinatorProtocol {
+    func auth() {
+        parentCoordinator?.switchToMain()
     }
 }
