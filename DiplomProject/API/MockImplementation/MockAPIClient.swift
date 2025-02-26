@@ -1,4 +1,5 @@
 import FirebaseFirestore
+import FirebaseAuth
 
 fileprivate enum EmptyError: Error {
     case empty
@@ -20,6 +21,14 @@ final class MockAPIClient: APIClient {
                 request: getPostsRequest,
                 completion: completion as! (Result<API.getPosts.ResultValue, any Error>) -> Void
             )
+        case .login(let loginRequest):
+            login(
+                email: loginRequest.email,
+                password: loginRequest.password,
+                completion: completion as! (Result<API.login.ResultValue, any Error>) -> Void
+            )
+        case .checkAuth(_):
+            checkAuth(completion: completion as! (Result<API.login.ResultValue, any Error>) -> Void)
         }
     }
     
@@ -185,6 +194,36 @@ final class MockAPIClient: APIClient {
             }
         }
     }
+    
+    private func login(email: String, password: String, completion: @escaping (Result<User, any Error>) -> Void) {
+        Auth.auth().signIn(withEmail: email, password: password) { [weak self] result, error in
+            guard let self else { return }
+            guard error == nil else {
+                completion(.failure(error!))
+                return
+            }
+            guard let result else {
+                completion(.failure(EmptyError.empty))
+                return
+            }
+            
+            let fireBaseUser = result.user
+            
+            getUser(userId: fireBaseUser.uid) { result in
+                completion(result)
+            }
+        }
+    }
+    
+    private func checkAuth(completion: @escaping (Result<User, any Error>) -> Void) {
+        guard let user = Auth.auth().currentUser else {
+            completion(.failure(EmptyError.empty))
+            return
+        }
+        getUser(userId: user.uid) { result in
+            completion(result)
+        }
+    }
 }
 
 
@@ -194,6 +233,8 @@ final class MockAPIClient: APIClient {
 fileprivate enum Method {
     case getFriends(API.getFriends)
     case getPosts(API.getPosts)
+    case login(API.login)
+    case checkAuth(API.checkAuth)
 }
 
 extension Method {
@@ -203,7 +244,10 @@ extension Method {
             self = .getFriends(request as! API.getFriends)
         case "getPosts":
             self = .getPosts(request as! API.getPosts)
-            
+        case "login":
+            self = .login(request as! API.login)
+        case "checkAuth":
+            self = .checkAuth(request as! API.checkAuth)
         default:
             fatalError()
         }

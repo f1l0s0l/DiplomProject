@@ -4,7 +4,28 @@ import FirebaseFirestore
 final class FeedViewController: UICollectionViewController {
     
     // MARK: - Private properties
+    
     private let viewModel: FeedViewModel
+    
+    private let refreshControl: UIRefreshControl = {
+        let refreshControl = UIRefreshControl()
+        return refreshControl
+    }()
+    
+    private let backgroundLoadingView: UIView = {
+        let view = UIView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.isHidden = true
+        view.backgroundColor = .black.withAlphaComponent(0.3)
+        return view
+    }()
+    
+    private let activityIndicatorView: UIActivityIndicatorView = {
+        let activityIndicatorView = UIActivityIndicatorView()
+        activityIndicatorView.translatesAutoresizingMaskIntoConstraints = false
+        activityIndicatorView.isHidden = true
+        return activityIndicatorView
+    }()
     
     private lazy var layout: UICollectionViewCompositionalLayout = {
         let layout = UICollectionViewCompositionalLayout { [weak self] sectionIndex, environment in
@@ -35,6 +56,7 @@ final class FeedViewController: UICollectionViewController {
         ].forEach(collectionView.register)
         
         self.collectionView = collectionView
+        self.collectionView.refreshControl = refreshControl
         
 //        test(timestamp: 100000)
     }
@@ -42,7 +64,14 @@ final class FeedViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .orange
+        applyTheme()
+        
+        collectionView.addSubview(backgroundLoadingView)
+        collectionView.addSubview(activityIndicatorView)
+
+        setupConstraints()
+        
+        refreshControl.addTarget(self, action: #selector(refreshControlHendler), for: .valueChanged)
         bindViewModel()
     }
     
@@ -60,15 +89,52 @@ final class FeedViewController: UICollectionViewController {
             switch state {
             case .initial:
                 break
+            case .initialLoading:
+                updateActivityIndiator(started: true)
             case .loading:
-                break // activityInducator.start()
+                break
             case .loaded:
-                //activityIndicator.stop()
+                updateActivityIndiator(started: false)
+                collectionView.reloadData()
+            case .updateTheme:
+                applyTheme()
                 collectionView.reloadData()
             case .wrong:
-                ()
+                updateActivityIndiator(started: false)
             }
         }
+    }
+    
+    private func updateActivityIndiator(started: Bool) {
+        if started {
+            activityIndicatorView.startAnimating()
+        } else {
+            activityIndicatorView.stopAnimating()
+            refreshControl.endRefreshing()
+        }
+        
+        backgroundLoadingView.isHidden = started ? false : true
+        activityIndicatorView.isHidden = started ? false : true
+    }
+    
+    private func setupConstraints() {
+        NSLayoutConstraint.activate([
+            backgroundLoadingView.topAnchor.constraint(equalTo: view.topAnchor),
+            backgroundLoadingView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            backgroundLoadingView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            backgroundLoadingView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            
+            activityIndicatorView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            activityIndicatorView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+        ])
+    }
+    
+    @objc private func refreshControlHendler() {
+        viewModel.loadPosts()
+    }
+    
+    private func applyTheme() {
+        collectionView.backgroundColor = viewModel.themeProvider.commonTheme.background.surface
     }
 }
 
@@ -105,11 +171,11 @@ extension FeedViewController {
                 let user = viewModel.users[post.authorId]!
                 
                 let cell = collectionView.dequeueReusableCell(class: FeedPostCollectionCell.self, for: indexPath)
-                cell.render(post: post, author: user)
+                cell.render(post: post, author: user, themeProvider: viewModel.themeProvider)
                 return cell
             case .date(let date):
                 let cell = collectionView.dequeueReusableCell(class: FeedDateCollectionCell.self, for: indexPath)
-                cell.render(date: date)
+                cell.render(date: date, themeProvider: viewModel.themeProvider)
                 return cell
             }
         }

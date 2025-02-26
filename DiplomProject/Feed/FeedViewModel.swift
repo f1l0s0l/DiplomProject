@@ -6,6 +6,8 @@ final class FeedViewModel {
     
     var stateChanged: ((State) -> Void)?
     
+    let themeProvider: ThemeProvider
+    
     private(set) var state: State = .initial {
         didSet {
             stateChanged?(state)
@@ -20,11 +22,20 @@ final class FeedViewModel {
     // MARK: - Private properties
     
     private let client: APIClient
+    private let user: User
     
     // MARK: - Lifecycles
     
-    init(client: APIClient) {
+    init(client: APIClient, themeProvider: ThemeProvider, user: User) {
         self.client = client
+        self.themeProvider = themeProvider
+        self.user = user
+        
+        NotificationCenter.default.addObserver(forName: ThemeProvider.didChangeThemeNotification, object: nil, queue: .main) { [weak self] _ in
+            guard let self else { return }
+            
+            state = .updateTheme
+        }
     }
     
     // MARK: - Public methods
@@ -32,8 +43,8 @@ final class FeedViewModel {
     func loadPosts() {
         state = .loading
         
-        let userId = "UHwc5gRdVObEFnb66qymee9Exim1"
-        client.perform(request: API.getPosts(parameters: [:], userId: userId)) { [weak self] result in
+//        let userId = "UHwc5gRdVObEFnb66qymee9Exim1"
+        client.perform(request: API.getPosts(parameters: [:], userId: user.id)) { [weak self] result in
             guard let self else { return }
             switch result {
             case .success((let posts, let users)):
@@ -55,8 +66,8 @@ final class FeedViewModel {
                 }
                 
                 state = .loaded
-            case .failure(let failure):
-                state = .wrong
+            case .failure(let error):
+                state = .wrong(error.localizedDescription)
             }
         }
     }
@@ -76,9 +87,11 @@ final class FeedViewModel {
 extension FeedViewModel {
     enum State {
         case initial
+        case initialLoading
         case loading
         case loaded
-        case wrong
+        case updateTheme
+        case wrong(String)
     }
 }
 

@@ -1,7 +1,7 @@
 import UIKit
 
 protocol AuthCoordinatorProtocol: AnyObject {
-    func auth()
+    func auth(user: User)
 }
 
 final class AuthCoordinator {
@@ -13,11 +13,16 @@ final class AuthCoordinator {
     private var childCoordinators: [Coordinator] = []
     private var navigationController: UINavigationController
     
+    private let client: APIClient
+    private let themeProvider: ThemeProvider
+    
     // MARK: - Lifecycles
     
-    init(parentCoordinator: MainCoordinatorParentDelegate?) {
+    init(parentCoordinator: MainCoordinatorParentDelegate?, client: APIClient, themeProvider: ThemeProvider) {
         self.parentCoordinator = parentCoordinator
         navigationController = UINavigationController()
+        self.client = client
+        self.themeProvider = themeProvider
     }
     
     // MARK: - Private Methods
@@ -38,7 +43,8 @@ final class AuthCoordinator {
 
 extension AuthCoordinator: Coordinator {
     func start() -> UIViewController {
-        let authViewController = AuthViewController(coordinator: self)
+        let authViewModel = AuthViewModel(coordinator: self, client: client, themeProvider: themeProvider)
+        let authViewController = AuthViewController(coordinator: self, viewModel: authViewModel)
         navigationController = UINavigationController(rootViewController: authViewController)
         return navigationController
     }
@@ -48,7 +54,7 @@ extension AuthCoordinator: Coordinator {
 // MARK: - AuthCoordinatorProtocol
 
 extension AuthCoordinator: AuthCoordinatorProtocol {
-    func auth() {
-        parentCoordinator?.switchToMain()
+    func auth(user: User) {
+        parentCoordinator?.switchToMain(user: user)
     }
 }

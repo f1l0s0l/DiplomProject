@@ -31,8 +31,6 @@ final class FeedPostCollectionCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        backgroundColor = .white
-        
         contentView.addSubview(authorView)
         contentView.addSubview(postBodyView)
         contentView.addSubview(postInfoView)
@@ -44,9 +42,10 @@ final class FeedPostCollectionCell: UICollectionViewCell {
     
     // MARK: - Public methods
     
-    func render(post: Post, author: User) {
-        authorView.render(user: author)
-        postBodyView.render(post: post)
+    func render(post: Post, author: User, themeProvider: ThemeProvider) {
+        authorView.render(user: author, themeProvider: themeProvider)
+        postBodyView.render(post: post, themeProvider: themeProvider)
+        postInfoView.render(themeProvider: themeProvider)
     }
     
     // MARK: - Private methods
@@ -88,7 +87,6 @@ final class FeedPostAuthorView: UIView {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.systemFont(ofSize: 19, weight: .bold)
-        label.textColor = .label
         return label
     }()
     
@@ -97,7 +95,6 @@ final class FeedPostAuthorView: UIView {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "Дизайнер"
         label.font = UIFont.systemFont(ofSize: 17)
-        label.textColor = .secondaryLabel
         return label
     }()
     
@@ -105,9 +102,7 @@ final class FeedPostAuthorView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
-        backgroundColor = .white
-        
+                
         [
             avatarImageView,
             nameLabel,
@@ -121,9 +116,14 @@ final class FeedPostAuthorView: UIView {
     
     // MARK: - Public methods
     
-    func render(user: User) {
+    func render(user: User, themeProvider: ThemeProvider) {
         avatarImageView.sd_setImage(with: user.avatarURL, placeholderImage: UIImage(systemName: "person.circle"))
         nameLabel.text = user.name
+        
+        nameLabel.textColor = themeProvider.commonTheme.text.name
+        tempLabel.textColor = themeProvider.commonTheme.text.secondary
+        
+        backgroundColor = themeProvider.commonTheme.background.surface
     }
     
     // MARK: - Private methods
@@ -171,7 +171,6 @@ final class FeedPostBodyView: UIView {
     private let separatorView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = .black
         return view
     }()
     
@@ -179,9 +178,7 @@ final class FeedPostBodyView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
-        backgroundColor = .systemGray5
-        
+                
         [
             bodyLabel,
             attachImageView,
@@ -195,10 +192,14 @@ final class FeedPostBodyView: UIView {
     
     // MARK: - Public methods
     
-    func render(post: Post) {
+    func render(post: Post, themeProvider: ThemeProvider) {
         bodyLabel.text = post.text
         bodyLabel.text = "akjsfbakjsdbakjsbdakjsdbakjsbdaksjdb ajsdnkj ajkhbdakjsdb aksjdh askjd ljashd aksd hasd kajshd \n jahgsdajsyd iaydsg asyaiysdg"
         attachImageView.sd_setImage(with: URL(string: post.imageURL))
+        
+        bodyLabel.textColor = themeProvider.commonTheme.text.primary
+        separatorView.backgroundColor = themeProvider.commonTheme.stroke.primary
+        backgroundColor = themeProvider.commonTheme.background.themed
     }
     
     
@@ -230,10 +231,13 @@ final class FeedPostInfoView: UIView {
     private let buttonTitleIndent = "  "
     private let defaultLikeCount = 5
     
+    private var likeIconSelectedColor = UIColor.clear
+    private var likeIconColor = UIColor.clear
+
+    
     private let separatorView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = .systemGray
         return view
     }()
     
@@ -242,9 +246,6 @@ final class FeedPostInfoView: UIView {
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setImage(UIImage(systemName: "heart"), for: .normal)
         button.setImage(UIImage(systemName: "heart.fill"), for: .selected)
-
-        button.setTitleColor(.black, for: .normal)
-        button.imageView?.tintColor = .black
         return button
     }()
     
@@ -263,6 +264,19 @@ final class FeedPostInfoView: UIView {
     }
     
     required init?(coder: NSCoder) { fatalError() }
+    
+    func render(themeProvider: ThemeProvider) {
+        backgroundColor = themeProvider.commonTheme.background.themed
+        
+        separatorView.backgroundColor = themeProvider.commonTheme.stroke.secondary
+        
+        likeIconSelectedColor = themeProvider.commonTheme.icon.negative
+        likeIconColor = themeProvider.commonTheme.icon.contrast
+        
+        likeButton.setTitleColor(themeProvider.commonTheme.text.contrast, for: .normal)
+        
+        updateLikeButton()
+    }
 
     private func setupConstraints() {
         NSLayoutConstraint.activate([
@@ -285,7 +299,7 @@ final class FeedPostInfoView: UIView {
     }
     
     private func updateLikeButton() {
-        let likeIconTintColor = likeButton.isSelected ? UIColor.red : UIColor.black
+        let likeIconTintColor = likeButton.isSelected ? likeIconSelectedColor : likeIconColor
         likeButton.imageView?.tintColor = likeIconTintColor
     }
 }

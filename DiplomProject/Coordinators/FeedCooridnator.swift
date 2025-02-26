@@ -8,12 +8,16 @@ final class FeedCoordinator {
     private var navigationController: UINavigationController
     
     private let client: APIClient
+    private let themeProvider: ThemeProvider
+    private let user: User
     
     // MARK: - Lifecycles
     
-    init(client: APIClient) {
+    init(client: APIClient, themeProvider: ThemeProvider, user: User) {
         navigationController = UINavigationController()
         self.client = client
+        self.themeProvider = themeProvider
+        self.user = user
     }
     
     // MARK: - Private Methods
@@ -34,7 +38,7 @@ final class FeedCoordinator {
 
 extension FeedCoordinator: Coordinator {
     func start() -> UIViewController {
-        let viewModel = FeedViewModel(client: client)
+        let viewModel = FeedViewModel(client: client, themeProvider: themeProvider, user: user)
         let feedViewController = FeedViewController(viewModel: viewModel)
         feedViewController.title = "Feed"
         

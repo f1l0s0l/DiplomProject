@@ -1,0 +1,373 @@
+[
+  {
+    "name": "Appearance",
+    "values": [
+      {
+        "mode": {
+          "name": "Bumble · Light Mode",
+        },
+        "color": [
+	  {
+	    "name": "Common/Text/Action",
+	    "value": "#007AFF",
+          },
+	  {
+	    "name": "Common/Text/Negative",
+	    "value": "#FF3B30",
+          },
+	  {
+	    "name": "Common/Text/Primary",
+	    "value": "#000000",
+          },
+	  {
+	    "name": "Common/Text/Secondary",
+	    "value": "#3C3C4399",
+          },
+	  {
+	    "name": "Common/Text/Tertiary",
+	    "value": "#3C3C434D",
+          },
+	  {
+	    "name": "Common/Text/Name",
+	    "value": "#FFD60A",
+          },
+	  {
+	    "name": "Common/Text/Contrast",
+	    "value": "#000000",
+          },
+	  {
+	    "name": "Common/Background/Themed",
+	    "value": "#FFFDE7",
+          },
+	  {
+	    "name": "Common/Background/Surface",
+	    "value": "#FFFFFF",
+          },
+	  {
+	    "name": "Common/Background/Grouped",
+	    "value": "#F2F2F7",
+          },
+	  {
+	    "name": "Common/Icon/Themed",
+	    "value": "#FFD60A",
+          },
+	  {
+	    "name": "Common/Icon/Secondary",
+	    "value": "#8E8E93",
+          },
+	  {
+	    "name": "Common/Icon/Contrast",
+	    "value": "#000000",
+          },
+	  {
+	    "name": "Common/Icon/Negative",
+	    "value": "#FF3B30",
+          },
+	  {
+	    "name": "Common/Stroke/Primary",
+	    "value": "#0C0D0EBF",
+          },
+	  {
+	    "name": "Common/Stroke/Secondary",
+	    "value": "#0C0D0E66",
+          },
+	  {
+	    "name": "NavigationBar/Background",
+	    "value": "#FFFFFF",
+          },
+	  {
+	    "name": "NavigationBar/Title",
+	    "value": "#000000",
+          },
+	  {
+	    "name": "TabBar/Background",
+	    "value": "#FFFFFF",
+          },
+	  {
+	    "name": "TabBar/Icon/Primary",
+	    "value": "#F57C00",
+          },
+	  {
+	    "name": "TabBar/Icon/Secondary",
+	    "value": "#8E8E93",
+          }
+        ]
+      },
+      {
+        "mode": {
+          "name": "Bumble · Dark Mode",
+        },
+        "color": [
+	  {
+	    "name": "Common/Text/Action",
+	    "value": "#0A84FF",
+          },
+	  {
+	    "name": "Common/Text/Negative",
+	    "value": "#FF453A",
+          },
+	  {
+	    "name": "Common/Text/Primary",
+	    "value": "#FFFFFF",
+          },
+	  {
+	    "name": "Common/Text/Secondary",
+	    "value": "#EBEBF599",
+          },
+	  {
+	    "name": "Common/Text/Tertiary",
+	    "value": "#EBEBF54D",
+          },
+	  {
+	    "name": "Common/Text/Name",
+	    "value": "#FF9F0A",
+          },
+	  {
+	    "name": "Common/Text/Contrast",
+	    "value": "#FFFFFF",
+          },
+	  {
+	    "name": "Common/Background/Themed",
+	    "value": "#2C2C2C",
+          },
+	  {
+	    "name": "Common/Background/Surface",
+	    "value": "#1C1C1E",
+          },
+	  {
+	    "name": "Common/Background/Grouped",
+	    "value": "#2C2C2E",
+          },
+	  {
+	    "name": "Common/Icon/Themed",
+	    "value": "#FF9F0A",
+          },
+	  {
+	    "name": "Common/Icon/Secondary",
+	    "value": "#505050",
+          },
+	  {
+	    "name": "Common/Icon/Contrast",
+	    "value": "#FFFFFF",
+          },
+	  {
+	    "name": "Common/Icon/Negative",
+	    "value": "#FF453A",
+          },
+	  {
+	    "name": "Common/Stroke/Primary",
+	    "value": "#FFFFFFBF",
+          },
+	  {
+	    "name": "Common/Stroke/Secondary",
+	    "value": "#FFFFFF66",
+          },
+	  {
+	    "name": "NavigationBar/Background",
+	    "value": "#1C1C1E",
+          },
+	  {
+	    "name": "NavigationBar/Title",
+	    "value": "#FFFFFF",
+          },
+	  {
+	    "name": "TabBar/Background",
+	    "value": "#0C0D0E",
+          },
+	  {
+	    "name": "TabBar/Icon/Primary",
+	    "value": "#FFA726",
+          },
+	  {
+	    "name": "TabBar/Icon/Secondary",
+	    "value": "#505050",
+          }
+        ]
+      },
+      {
+        "mode": {
+          "name": "Monochrome · Light Mode",
+          "id": "223:0"
+        },
+        "color": [
+	  {
+	    "name": "Common/Text/Action",
+	    "value": "#FF007F",
+          },
+	  {
+	    "name": "Common/Text/Negative",
+	    "value": "#FF3B30",
+          },
+	  {
+	    "name": "Common/Text/Primary",
+	    "value": "#4A4A4A",
+          },
+	  {
+	    "name": "Common/Text/Secondary",
+	    "value": "#D1A8C0CC",
+          },
+	  {
+	    "name": "Common/Text/Tertiary",
+	    "value": "#F5A7C599",
+          },
+	  {
+	    "name": "Common/Text/Name",
+	    "value": "#FF9AA2",
+          },
+	  {
+	    "name": "Common/Text/Contrast",
+	    "value": "#000000",
+          },
+	  {
+	    "name": "Common/Background/Themed",
+	    "value": "#FFE1E1",
+          },
+	  {
+	    "name": "Common/Background/Surface",
+	    "value": "#FFCCE5",
+          },
+	  {
+	    "name": "Common/Background/Grouped",
+	    "value": "#F4D1D1",
+          },
+	  {
+	    "name": "Common/Icon/Themed",
+	    "value": "#FF8D92",
+          },
+	  {
+	    "name": "Common/Icon/Secondary",
+	    "value": "#FFB3C1",
+          },
+	  {
+	    "name": "Common/Icon/Contrast",
+	    "value": "#000000",
+          },
+	  {
+	    "name": "Common/Icon/Negative",
+	    "value": "#FF3B30",
+          },
+	  {
+	    "name": "Common/Stroke/Primary",
+	    "value": "#F0C1D6CC",
+          },
+	  {
+	    "name": "Common/Stroke/Secondary",
+	    "value": "#F6D3D699",
+          },
+	  {
+	    "name": "NavigationBar/Background",
+	    "value": "#F8BFD4",
+          },
+	  {
+	    "name": "NavigationBar/Title",
+	    "value": "#4A4A4A",
+          },
+	  {
+	    "name": "TabBar/Background",
+	    "value": "#FFCCE5",
+          },
+	  {
+	    "name": "TabBar/Icon/Primary",
+	    "value": "#FF6F91",
+          },
+	  {
+	    "name": "TabBar/Icon/Secondary",
+	    "value": "#FFB3C1",
+          }
+	]
+      },
+      {
+        "mode": {
+          "name": "Monochrome · Dark Mode",
+          "id": "223:1"
+        },
+        "color": [
+	  {
+	    "name": "Common/Text/Action",
+	    "value": "#FF5A8D",
+          },
+	  {
+	    "name": "Common/Text/Negative",
+	    "value": "#FF453A",
+          },
+	  {
+	    "name": "Common/Text/Primary",
+	    "value": "#FFFFFF",
+          },
+	  {
+	    "name": "Common/Text/Secondary",
+	    "value": "#E6A3C7CC",
+          },
+	  {
+	    "name": "Common/Text/Tertiary",
+	    "value": "#E0A1C199",
+          },
+	  {
+	    "name": "Common/Text/Name",
+	    "value": "#FF8DAA",
+          },
+	  {
+	    "name": "Common/Text/Contrast",
+	    "value": "#FFFFFF",
+          },
+	  {
+	    "name": "Common/Background/Themed",
+	    "value": "#3B0D0D",
+          },
+	  {
+	    "name": "Common/Background/Surface",
+	    "value": "#2F0D0D",
+          },
+	  {
+	    "name": "Common/Background/Grouped",
+	    "value": "#3C2C2C",
+          },
+	  {
+	    "name": "Common/Icon/Themed",
+	    "value": "#FF4F6C",
+          },
+	  {
+	    "name": "Common/Icon/Secondary",
+	    "value": "#F1A0B7",
+          },
+	  {
+	    "name": "Common/Icon/Contrast",
+	    "value": "#FFFFFF",
+          },
+	  {
+	    "name": "Common/Icon/Negative",
+	    "value": "#FF453A",
+          },
+	  {
+	    "name": "Common/Stroke/Primary",
+	    "value": "#FAD1E0CC",
+          },
+	  {
+	    "name": "Common/Stroke/Secondary",
+	    "value": "#B9A0A599",
+          },
+	  {
+	    "name": "NavigationBar/Background",
+	    "value": "#B23C42",
+          },
+	  {
+	    "name": "NavigationBar/Title",
+	    "value": "#FFFFFF",
+          },
+	  {
+	    "name": "TabBar/Background",
+	    "value": "#3F1D21",
+          },
+	  {
+	    "name": "TabBar/Icon/Primary",
+	    "value": "#FF4D6F",
+          },
+	  {
+	    "name": "TabBar/Icon/Secondary",
+	    "value": "#F1A0B7",
+          }
+        ]
+      }
+    ]
+  }
+]

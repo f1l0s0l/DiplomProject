@@ -1,13 +1,16 @@
 import UIKit
 
 final class FeedDateCollectionCell: UICollectionViewCell {
+    
     // MARK: - Private properties
+    
+    private var separatorColor = UIColor.clear
     
     private let bubbleView: UIView = {
         let view = UIView()
         view.layer.cornerRadius = 12
-        view.backgroundColor = .white
-        view.layer.borderColor = UIColor.systemGray.cgColor
+        view.backgroundColor = .clear
+//        view.layer.borderColor = UIColor.systemGray.cgColor
         view.layer.borderWidth = 1
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
@@ -23,7 +26,7 @@ final class FeedDateCollectionCell: UICollectionViewCell {
     private let leftSeparatorView: UIView = {
         let view = UIView()
         view.layer.cornerRadius = 5
-        view.backgroundColor = .systemGray
+//        view.backgroundColor = .systemGray
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -31,7 +34,7 @@ final class FeedDateCollectionCell: UICollectionViewCell {
     private let rightSeparatorView: UIView = {
         let view = UIView()
         view.layer.cornerRadius = 5
-        view.backgroundColor = .systemGray
+//        view.backgroundColor = .systemGray
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -58,8 +61,15 @@ final class FeedDateCollectionCell: UICollectionViewCell {
     
     // MARK: - Public methods
     
-    func render(date: Date) {
+    func render(date: Date, themeProvider: ThemeProvider) {
         title.text = date.formatDateToDayMonth
+        
+        title.textColor = themeProvider.commonTheme.text.primary
+        leftSeparatorView.backgroundColor = themeProvider.commonTheme.stroke.primary
+        rightSeparatorView.backgroundColor = themeProvider.commonTheme.stroke.primary
+        bubbleView.layer.borderColor = themeProvider.commonTheme.stroke.primary.cgColor
+        
+        separatorColor = themeProvider.commonTheme.stroke.primary
     }
     
     // MARK: - Private methods
@@ -85,5 +95,13 @@ final class FeedDateCollectionCell: UICollectionViewCell {
             title.trailingAnchor.constraint(equalTo: bubbleView.trailingAnchor, constant: -20),
             title.bottomAnchor.constraint(equalTo: bubbleView.bottomAnchor, constant: -5),
         ])
+    }
+    
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+        
+        if previousTraitCollection?.userInterfaceStyle != traitCollection.userInterfaceStyle {
+            bubbleView.layer.borderColor = separatorColor.cgColor
+        }
     }
 }
