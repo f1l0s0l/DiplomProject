@@ -194,7 +194,7 @@ final class FeedPostBodyView: UIView {
     
     func render(post: Post, themeProvider: ThemeProvider) {
         bodyLabel.text = post.text
-        bodyLabel.text = "akjsfbakjsdbakjsbdakjsdbakjsbdaksjdb ajsdnkj ajkhbdakjsdb aksjdh askjd ljashd aksd hasd kajshd \n jahgsdajsyd iaydsg asyaiysdg"
+//        bodyLabel.text = "akjsfbakjsdbakjsbdakjsdbakjsbdaksjdb ajsdnkj ajkhbdakjsdb aksjdh askjd ljashd aksd hasd kajshd \n jahgsdajsyd iaydsg asyaiysdg"/
         attachImageView.sd_setImage(with: URL(string: post.imageURL))
         
         bodyLabel.textColor = themeProvider.commonTheme.text.primary

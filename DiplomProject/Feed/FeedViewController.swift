@@ -78,7 +78,9 @@ final class FeedViewController: UICollectionViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        viewModel.loadPosts()
+        if viewModel.items.isEmpty {
+            viewModel.loadPosts()
+        }
     }
     
     // MARK: - Private methods

@@ -41,9 +41,8 @@ final class FeedViewModel {
     // MARK: - Public methods
     
     func loadPosts() {
-        state = .loading
-        
-//        let userId = "UHwc5gRdVObEFnb66qymee9Exim1"
+        state = items.isEmpty ? .initialLoading : .loading
+
         client.perform(request: API.getPosts(parameters: [:], userId: user.id)) { [weak self] result in
             guard let self else { return }
             switch result {
@@ -94,8 +93,6 @@ extension FeedViewModel {
         case wrong(String)
     }
 }
-
-
 
 extension FeedViewModel {
     enum FeedItem {
