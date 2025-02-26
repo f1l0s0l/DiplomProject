@@ -25,7 +25,6 @@ final class MainCoordinator {
         let themeType = CodeGenThemeType(rawValue: UserDefaults.standard.object(forKey: "CurrentThemeType") as? Int ?? 0)
         themeProvider = ThemeProvider(themeType: themeType ?? .bumble)
         
-        subscribeSession()
         NotificationCenter.default.addObserver(forName: ThemeProvider.didChangeThemeNotification, object: nil, queue: .main) { [weak self] _ in
             guard let self else { return }
             
