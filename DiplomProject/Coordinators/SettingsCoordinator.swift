@@ -4,6 +4,7 @@ protocol SettingsCoordinatorProtocol: AnyObject {
     func signOut()
     func openSelectThemes()
     func navBarHidden(_ isHidden: Bool)
+    func GEBUG_openExampleColors()
 }
 
 final class SettingsCoordinator {
@@ -38,6 +39,11 @@ final class SettingsCoordinator {
     
     private func removeChildCoordinator(_ coordinator: Coordinator) {
         self.childCoordinators.removeAll(where: {$0 === coordinator})
+    }
+    
+    private func createExampleColorsCoordinator() -> Coordinator {
+        let coordinator = ExampleColorsCoordinator(themeProvider: themeProvider)
+        return coordinator
     }
 }
 
@@ -82,5 +88,12 @@ extension SettingsCoordinator: SettingsCoordinatorProtocol {
         
         navigationController.navigationBar.isHidden = false
         navigationController.pushViewController(selectThemesViewController, animated: true)
+    }
+    
+    func GEBUG_openExampleColors() {
+        let coordinator = createExampleColorsCoordinator()
+        addChildCoordinator(coordinator)
+        
+        navigationController.present(coordinator.start(), animated: true)
     }
 }

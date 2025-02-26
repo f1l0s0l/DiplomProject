@@ -92,6 +92,8 @@ final class SettingsViewController: UIViewController, UITableViewDataSource, UIT
         switch section {
         case .fisrt:
             return 1
+        case .DEBUG_ONLY_previewColors:
+            return 1
         case .signOut:
             return 1
         }
@@ -105,13 +107,23 @@ final class SettingsViewController: UIViewController, UITableViewDataSource, UIT
         let cell = tableView.dequeueReusableCell(withIdentifier: "SettingsCell", for: indexPath) as! SettingsCell
         switch section {
         case .fisrt:
-            cell.leftIconImageView.image = UIImage(systemName: "paintbrush")
+            cell.leftIconImageView.image = UIImage(systemName: "paintbrush.fill")
             cell.leftIconImageView.tintColor = themeProvider.commonTheme.icon.themed
             
             cell.rightIconImageView.image = UIImage(systemName: "chevron.right")
             cell.rightIconImageView.tintColor = themeProvider.commonTheme.icon.secondary
             
             cell.titleLabel.text = "Оформление"
+            cell.titleLabel.textAlignment = .left
+            cell.titleLabel.textColor = themeProvider.commonTheme.text.primary
+        case .DEBUG_ONLY_previewColors:
+            cell.leftIconImageView.image = UIImage(systemName: "tree.fill")
+            cell.leftIconImageView.tintColor = themeProvider.commonTheme.icon.themed
+            
+            cell.rightIconImageView.image = UIImage(systemName: "chevron.right")
+            cell.rightIconImageView.tintColor = themeProvider.commonTheme.icon.secondary
+            
+            cell.titleLabel.text = "Просмотр токенов"
             cell.titleLabel.textAlignment = .left
             cell.titleLabel.textColor = themeProvider.commonTheme.text.primary
         case .signOut:
@@ -134,7 +146,9 @@ final class SettingsViewController: UIViewController, UITableViewDataSource, UIT
         
         switch Section(rawValue: indexPath.section)! {
         case .fisrt:
-            viewModel.didTapThemes()
+            viewModel.openThemes()
+        case .DEBUG_ONLY_previewColors:
+            viewModel.GEBUG_openExampleColors()
         case .signOut:
             viewModel.signOut()
         }
@@ -146,6 +160,7 @@ final class SettingsViewController: UIViewController, UITableViewDataSource, UIT
 extension SettingsViewController {
     enum Section: Int, CaseIterable {
         case fisrt
+        case DEBUG_ONLY_previewColors
         case signOut
     }
 }

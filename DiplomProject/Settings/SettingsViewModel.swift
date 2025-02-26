@@ -23,8 +23,12 @@ final class SettingsViewModel {
         coordinator?.signOut()
     }
     
-    func didTapThemes() {
+    func openThemes() {
         coordinator?.openSelectThemes()
+    }
+    
+    func GEBUG_openExampleColors() {
+        coordinator?.GEBUG_openExampleColors()
     }
     
     func hideNavBar() {
