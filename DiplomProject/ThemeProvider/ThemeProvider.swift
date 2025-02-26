@@ -8,13 +8,13 @@ final class ThemeProvider {
     private(set) var navigationBarTheme: NavigationBarTheme
     private(set) var tabBarTheme: TabBarTheme
     
-    init(themeType: ThemeType) {
+    init(themeType: CodeGenThemeType) {
         commonTheme = CommonTheme(themeType: themeType)
         navigationBarTheme = NavigationBarTheme(themeType: themeType)
         tabBarTheme = TabBarTheme(themeType: themeType)
     }
     
-    func update(themeType: ThemeType) {
+    func update(themeType: CodeGenThemeType) {
         commonTheme = CommonTheme(themeType: themeType)
         navigationBarTheme = NavigationBarTheme(themeType: themeType)
         tabBarTheme = TabBarTheme(themeType: themeType)

@@ -1,11 +1,11 @@
 import UIKit
 
-struct TabBarTheme {
-    let background: UIColor
-    let icon: Icon
-    
-    struct Icon {
-        let primary: UIColor
-        let secondary: UIColor
+public struct TabBarTheme {
+    public let background: UIColor
+    public let icon: Icon
+
+    public struct Icon {
+        public let primary: UIColor
+        public let secondary: UIColor
     }
 }

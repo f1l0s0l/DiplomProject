@@ -1,0 +1,4519 @@
+[
+  {
+    "name": "Appearance",
+    "values": [
+      {
+        "mode": {
+          "name": "Simple · Light Mode",
+          "id": "20:2"
+        },
+        "color": [
+          {
+            "name": "Bubbles/Incoming/Background/Action",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Action Fade",
+            "value": "#ddddde",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Action Secondary",
+            "value": "#fafafa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Bubble",
+            "value": "#eff0f1",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Icon Item",
+            "value": "#e4e6e7",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Icon Item Negative",
+            "value": "#ffeff0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Mention",
+            "value": "#51ff00",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Mention Pressed",
+            "value": "#51ff00",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Surface Secondary",
+            "value": "#fafafa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/BubbleGradient/Step 1",
+            "value": "#eff0f1",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/BubbleGradient/Step 2",
+            "value": "#eff0f1",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Reaction/Inside My",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Reaction/Inside Others",
+            "value": "#fafafa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Reaction/Outside My",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Reaction/Outside Others",
+            "value": "#2e333847",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Action",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Action Secondary",
+            "value": "#7b8299",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Alert",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Call Negative",
+            "value": "#ff303c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Call Neutral",
+            "value": "#0c0d0ecc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Icon Item",
+            "value": "#416afab2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Read Status",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Read Status Capsule",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Reply",
+            "value": "#7b8299",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Reply Forwarded",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Stroke/Action",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Stroke/Neutral Secondary",
+            "value": "#51ff00",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Stroke/Reply",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Action",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Action Fade",
+            "value": "#416afa99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Author",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Body",
+            "value": "#0c0d0e",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Body Secondary",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Forward Label",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Forward Name",
+            "value": "#0c0d0eb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reply Body",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reply Name",
+            "value": "#0c0d0eb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Time",
+            "value": "#0c0d0e66",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reaction/Inside My",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reaction/Inside Others",
+            "value": "#0c0d0e66",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reaction/Outside My",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reaction/Outside Others",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Action",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Action Fade",
+            "value": "#b5c6eb",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Action Secondary",
+            "value": "#ebf3ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Bubble",
+            "value": "#d6e7ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Icon Item",
+            "value": "#c2dcff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Icon Item Negative",
+            "value": "#c2dcff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Mention",
+            "value": "#51ff00",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Mention Pressed",
+            "value": "#51ff00",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Surface Secondary",
+            "value": "#ebf3ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/BubbleGradient/Step 1",
+            "value": "#d6e7ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/BubbleGradient/Step 2",
+            "value": "#d6e7ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Reaction/Inside My",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Reaction/Inside Others",
+            "value": "#ebf3ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Reaction/Outside My",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Reaction/Outside Others",
+            "value": "#2e333847",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Action",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Action Secondary",
+            "value": "#7b8299",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Alert",
+            "value": "#e64646",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Call Negative",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Call Neutral",
+            "value": "#416afacc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Icon Item",
+            "value": "#416afab2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Read Status",
+            "value": "#7b8299",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Read Status Capsule",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Reply",
+            "value": "#7b8299",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Reply Forwarded",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Stroke/Action",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Stroke/Neutral Secondary",
+            "value": "#51ff00",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Stroke/Reply",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Action",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Action Fade",
+            "value": "#416afa99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Author",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Body",
+            "value": "#0c0d0e",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Body Secondary",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Forward Label",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Forward Name",
+            "value": "#0c0d0eb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reply Body",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reply Name",
+            "value": "#0c0d0eb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Time",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reaction/Inside My",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reaction/Inside Others",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reaction/Outside My",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reaction/Outside Others",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Background/Error",
+            "value": "#ff303c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Background/Neutral",
+            "value": "#0d0d0d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Background/Themed",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Background/Themed Fade",
+            "value": "#d6e7ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Icon/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Icon/Neutral",
+            "value": "#0c0d0e",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Icon/Neutral Secondary",
+            "value": "#b4b6b9",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Icon/Themed Fade",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule",
+            "value": "#2e333873",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Secondary",
+            "value": "#f3f4f5",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Chat FAB Android",
+            "value": "#ecedee",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Chat FAB iOS",
+            "value": "#ecedeed6",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Neutral Fade",
+            "value": "#09090914",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Overlay Hard",
+            "value": "#0c0d0ecc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Overlay Secondary",
+            "value": "#0c0d0e99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Sticker Blank",
+            "value": "#edeef2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Surface Ground",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Gradient/Step 1",
+            "value": "#3d434ab2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Gradient/Step 2",
+            "value": "#3d434ab2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Secondary Gradient/Step 1",
+            "value": "#f3f4f5",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Secondary Gradient/Step 2",
+            "value": "#f3f4f5",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Glass Light/Step 1",
+            "value": "#f8f8f8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Glass Light/Step 2",
+            "value": "#f8f8f8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Glass Light/Step 3",
+            "value": "#f8f8f8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Icon/Accent",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Icon/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Icon/Secondary",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Elevation 2/Primary",
+            "value": "#0000000f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Elevation 2/Secondary",
+            "value": "#0000000a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Top Bar Android/Color",
+            "value": "#0000000f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Write Bar Android/Color",
+            "value": "#0000000f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Stroke/Contrast",
+            "value": "#bac1c8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Stroke/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Stroke/Glass",
+            "value": "#f6f6f6cc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Stroke/Separator/Primary",
+            "value": "#0c0d0e29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Text/Capsule",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Text/Capsule Secondary",
+            "value": "#0c0d0e",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Neutral",
+            "value": "#0d0d0d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Neutral Fade",
+            "value": "#09090914",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Primary",
+            "value": "#0c0d0e",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Themed",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Topbar Android",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Topbar iOS",
+            "value": "#f6f6f6e0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Disabled/Neutral",
+            "value": "#0d0d0d7a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Disabled/Neutral Fade",
+            "value": "#0909090a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Disabled/Themed",
+            "value": "#4876eb99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Contrast",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Neutral Fade",
+            "value": "#09090914",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Primary",
+            "value": "#0d0d0d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Quaternary",
+            "value": "#bcbdbe",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Secondary",
+            "value": "#515455",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Tertiary",
+            "value": "#898c8c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Themed",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Contrast",
+            "value": "#ffffffb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Contrast Static",
+            "value": "#ffffffb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Neutral Fade",
+            "value": "#0909090a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Primary",
+            "value": "#6f7276a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Quaternary",
+            "value": "#6f7276a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Secondary",
+            "value": "#6f7276a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Tertiary",
+            "value": "#6f7276a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Themed",
+            "value": "#4876eb99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Stroke/Separator/Default/Primary",
+            "value": "#0c0d0e29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Stroke/Separator/Default/Secondary",
+            "value": "#0c0d0e0f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Contrast",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Primary",
+            "value": "#0d0d0d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Secondary",
+            "value": "#0d0d0d85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Themed",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Contrast",
+            "value": "#ffffffa3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Contrast Static",
+            "value": "#ffffffb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Primary",
+            "value": "#6f7276a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Secondary",
+            "value": "#6f7276a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Themed",
+            "value": "#4876eb99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Emoji Area Android",
+            "value": "#f6f6f6",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Input Android",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Input iOS",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Neutral Fade",
+            "value": "#09090914",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Surface Android",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Surface iOS",
+            "value": "#f6f6f6e0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Icon/Neutral",
+            "value": "#0c0d0e",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Icon/Neutral Secondary",
+            "value": "#898c8c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Icon/Neutral Tertiary",
+            "value": "#898c8c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Icon/Themed",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Stroke/Area Separator",
+            "value": "#0c0d0e0f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Stroke/Input",
+            "value": "#0c0d0e0f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Stroke/Themed",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Input",
+            "value": "#0c0d0e",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Input MD Link",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Input Placeholder",
+            "value": "#0c0d0e66",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Primary",
+            "value": "#0c0d0e",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Reply Message",
+            "value": "#0c0d0eb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Reply To",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Secondary",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          }
+        ],
+        "number": [
+          {
+            "name": "Common/Shadows/Top Bar Android/Offset X",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Top Bar Android/Offset Y",
+            "value": "1rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Top Bar Android/Blur",
+            "value": "3rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Write Bar Android/Offset Y",
+            "value": "-0.5rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Write Bar Android/Offset X",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Write Bar Android/Blur",
+            "value": "3rem",
+            "var": "",
+            "rootAlias": ""
+          }
+        ],
+        "string": [
+          {
+            "name": "Appearance Switch",
+            "value": "Simple · Light Mode",
+            "var": "",
+            "rootAlias": ""
+          }
+        ]
+      },
+      {
+        "mode": {
+          "name": "Simple · Dark Mode",
+          "id": "20:3"
+        },
+        "color": [
+          {
+            "name": "Bubbles/Incoming/Background/Action",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Action Fade",
+            "value": "#505663",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Action Secondary",
+            "value": "#25292d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Bubble",
+            "value": "#2e3338",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Icon Item",
+            "value": "#43474c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Icon Item Negative",
+            "value": "#43474c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Mention",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Mention Pressed",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Surface Secondary",
+            "value": "#25292d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/BubbleGradient/Step 1",
+            "value": "#2e3338",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/BubbleGradient/Step 2",
+            "value": "#2e3338",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Reaction/Inside My",
+            "value": "#007aff",
+            "var": "Color/Brand/Primary",
+            "rootAlias": "Color/Brand/Primary"
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Reaction/Inside Others",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Reaction/Outside My",
+            "value": "#007aff",
+            "var": "Color/Brand/Primary",
+            "rootAlias": "Color/Brand/Primary"
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Reaction/Outside Others",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Action",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Action Secondary",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Alert",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Call Negative",
+            "value": "#ff705d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Call Neutral",
+            "value": "#ffffffb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Icon Item",
+            "value": "#ffffffb2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Read Status",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Read Status Capsule",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Reply",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Reply Forwarded",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Stroke/Action",
+            "value": "#2e3338",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Stroke/Neutral Secondary",
+            "value": "#51ff00",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Stroke/Reply",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Action",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Action Fade",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Author",
+            "value": "#6699ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Body",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Body Secondary",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Forward Label",
+            "value": "#e7e7e780",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Forward Name",
+            "value": "#e7e7e7bd",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reply Body",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reply Name",
+            "value": "#ffffffbd",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Time",
+            "value": "#ffffff57",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reaction/Inside My",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reaction/Inside Others",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reaction/Outside My",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reaction/Outside Others",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Action",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Action Fade",
+            "value": "#5f80dd",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Action Secondary",
+            "value": "#324dae",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Bubble",
+            "value": "#3958c6",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Icon Item",
+            "value": "#08307c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Icon Item Negative",
+            "value": "#08307c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Mention",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Mention Pressed",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Surface Secondary",
+            "value": "#324dae",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/BubbleGradient/Step 1",
+            "value": "#3958c6",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/BubbleGradient/Step 2",
+            "value": "#3958c6",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Reaction/Inside My",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Reaction/Inside Others",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Reaction/Outside My",
+            "value": "#007aff",
+            "var": "Color/Brand/Primary",
+            "rootAlias": "Color/Brand/Primary"
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Reaction/Outside Others",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Action",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Action Secondary",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Alert",
+            "value": "#e64646",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Call Negative",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Call Neutral",
+            "value": "#ffffffb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Icon Item",
+            "value": "#ffffffb2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Read Status",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Read Status Capsule",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Reply",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Reply Forwarded",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Stroke/Action",
+            "value": "#3958c6",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Stroke/Neutral Secondary",
+            "value": "#51ff00",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Stroke/Reply",
+            "value": "#6699ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Action",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Action Fade",
+            "value": "#ffffffb2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Author",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Body",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Body Secondary",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Forward Label",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Forward Name",
+            "value": "#ffffffbd",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reply Body",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reply Name",
+            "value": "#ffffffbd",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Time",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reaction/Inside My",
+            "value": "#5d6ae5",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reaction/Inside Others",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reaction/Outside My",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reaction/Outside Others",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Background/Error",
+            "value": "#ff444f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Background/Neutral",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Background/Themed",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Background/Themed Fade",
+            "value": "#b2d0fa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Icon/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Icon/Neutral",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Icon/Neutral Secondary",
+            "value": "#ffffff70",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Icon/Themed Fade",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule",
+            "value": "#2e333873",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Secondary",
+            "value": "#3d434a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Chat FAB Android",
+            "value": "#3d434a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Chat FAB iOS",
+            "value": "#3d434ad6",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Neutral Fade",
+            "value": "#e7e7e717",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Overlay Hard",
+            "value": "#0c0d0ecc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Overlay Secondary",
+            "value": "#0c0d0e99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Sticker Blank",
+            "value": "#414346",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Surface Ground",
+            "value": "#1d1e20",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Gradient/Step 1",
+            "value": "#3d434ab2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Gradient/Step 2",
+            "value": "#3d434ab2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Secondary Gradient/Step 1",
+            "value": "#3d434a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Secondary Gradient/Step 2",
+            "value": "#3d434a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Glass Light/Step 1",
+            "value": "#383e45cc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Glass Light/Step 2",
+            "value": "#383e4585",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Glass Light/Step 3",
+            "value": "#383e4552",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Icon/Accent",
+            "value": "#5f80dd",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Icon/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Icon/Secondary",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Elevation 2/Primary",
+            "value": "#00000033",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Elevation 2/Secondary",
+            "value": "#00000026",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Top Bar Android/Color",
+            "value": "#00000029",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Write Bar Android/Color",
+            "value": "#00000029",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Stroke/Contrast",
+            "value": "#ffffff99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Stroke/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Stroke/Glass",
+            "value": "#383e4570",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Stroke/Separator/Primary",
+            "value": "#ffffff1f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Text/Capsule",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Text/Capsule Secondary",
+            "value": "#f4f4f4",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Neutral",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Neutral Fade",
+            "value": "#ffffff14",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Primary",
+            "value": "#ffffffcc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Themed",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Topbar Android",
+            "value": "#1e1f24",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Topbar iOS",
+            "value": "#1e1f24d6",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Disabled/Neutral",
+            "value": "#ffffff66",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Disabled/Neutral Fade",
+            "value": "#ffffff0a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Disabled/Themed",
+            "value": "#516fda99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Contrast",
+            "value": "#0d0d0d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Neutral Fade",
+            "value": "#ffffff14",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Primary",
+            "value": "#ffffffcc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Quaternary",
+            "value": "#4f5050",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Secondary",
+            "value": "#ffffff70",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Tertiary",
+            "value": "#797c7c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Themed",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Contrast",
+            "value": "#0d0d0da3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Contrast Static",
+            "value": "#ffffff7a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Neutral Fade",
+            "value": "#ffffff0a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Primary",
+            "value": "#b7b8b9a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Quaternary",
+            "value": "#b7b8b9a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Secondary",
+            "value": "#b7b8b9a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Tertiary",
+            "value": "#b7b8b9a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Themed",
+            "value": "#516fda99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Stroke/Separator/Default/Primary",
+            "value": "#ffffff1f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Stroke/Separator/Default/Secondary",
+            "value": "#ffffff0f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Contrast",
+            "value": "#0d0d0d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Primary",
+            "value": "#ffffffcc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Secondary",
+            "value": "#ffffff70",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Themed",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Contrast",
+            "value": "#0d0d0da3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Contrast Static",
+            "value": "#ffffff7a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Primary",
+            "value": "#b7b8b9a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Secondary",
+            "value": "#b7b8b9a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Themed",
+            "value": "#516fda99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Emoji Area Android",
+            "value": "#181818",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Input Android",
+            "value": "#1e1f24",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Input iOS",
+            "value": "#0000003d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Neutral Fade",
+            "value": "#ffffff17",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Surface Android",
+            "value": "#1e1f24",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Surface iOS",
+            "value": "#1e1f24d6",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Icon/Neutral",
+            "value": "#ffffffcc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Icon/Neutral Secondary",
+            "value": "#ffffff70",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Icon/Neutral Tertiary",
+            "value": "#797c7c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Icon/Themed",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Stroke/Area Separator",
+            "value": "#ffffff0f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Stroke/Input",
+            "value": "#ffffff0f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Stroke/Themed",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Input",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Input MD Link",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Input Placeholder",
+            "value": "#ffffff57",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Primary",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Reply Message",
+            "value": "#e7e7e7bd",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Reply To",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Secondary",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          }
+        ],
+        "number": [
+          {
+            "name": "Common/Shadows/Top Bar Android/Offset X",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Top Bar Android/Offset Y",
+            "value": "1rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Top Bar Android/Blur",
+            "value": "3rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Write Bar Android/Offset Y",
+            "value": "-1rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Write Bar Android/Offset X",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Write Bar Android/Blur",
+            "value": "3rem",
+            "var": "",
+            "rootAlias": ""
+          }
+        ],
+        "string": [
+          {
+            "name": "Appearance Switch",
+            "value": "Simple · Dark Mode",
+            "var": "",
+            "rootAlias": ""
+          }
+        ]
+      },
+      {
+        "mode": {
+          "name": "Leaves · Light Mode",
+          "id": "223:0"
+        },
+        "color": [
+          {
+            "name": "Bubbles/Incoming/Background/Action",
+            "value": "#0f8ec2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Action Fade",
+            "value": "#0f8ec23d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Action Secondary",
+            "value": "#0f8ec214",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Bubble",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Icon Item",
+            "value": "#0f8ec214",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Icon Item Negative",
+            "value": "#ffeff0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Mention",
+            "value": "#fafafa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Mention Pressed",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Surface Secondary",
+            "value": "#0f8ec214",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/BubbleGradient/Step 1",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/BubbleGradient/Step 2",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Reaction/Inside My",
+            "value": "#0f8ec2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Reaction/Inside Others",
+            "value": "#fafafa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Reaction/Outside My",
+            "value": "#0f8ec2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Reaction/Outside Others",
+            "value": "#2e333847",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Action",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Action Secondary",
+            "value": "#0f8ec2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Alert",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Call Negative",
+            "value": "#ff303c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Call Neutral",
+            "value": "#0f8ec2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Icon Item",
+            "value": "#0f8ec2b2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Read Status",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Read Status Capsule",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Reply",
+            "value": "#7b8299",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Reply Forwarded",
+            "value": "#7b8299",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Stroke/Action",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Stroke/Neutral Secondary",
+            "value": "#0f8ec214",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Stroke/Reply",
+            "value": "#0f8ec2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Action",
+            "value": "#0f8ec2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Action Fade",
+            "value": "#0f8ec299",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Author",
+            "value": "#0f8ec2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Body",
+            "value": "#0c0d0e",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Body Secondary",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Forward Label",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Forward Name",
+            "value": "#0c0d0eb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reply Body",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reply Name",
+            "value": "#0c0d0eb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Time",
+            "value": "#0c0d0e66",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reaction/Inside My",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reaction/Inside Others",
+            "value": "#052b3c85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reaction/Outside My",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reaction/Outside Others",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Action",
+            "value": "#0f8ec2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Action Fade",
+            "value": "#0f8ec25c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Action Secondary",
+            "value": "#0f8ec214",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Bubble",
+            "value": "#e9fdff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Icon Item",
+            "value": "#0f8ec214",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Icon Item Negative",
+            "value": "#0f8ec214",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Mention",
+            "value": "#ebf3ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Mention Pressed",
+            "value": "#f5f9ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Surface Secondary",
+            "value": "#0f8ec214",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/BubbleGradient/Step 1",
+            "value": "#e9fdff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/BubbleGradient/Step 2",
+            "value": "#e9fdff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Reaction/Inside My",
+            "value": "#0f8ec2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Reaction/Inside Others",
+            "value": "#0f8ec21f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Reaction/Outside My",
+            "value": "#0f8ec2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Reaction/Outside Others",
+            "value": "#2e333847",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Action",
+            "value": "#e9fdff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Action Secondary",
+            "value": "#0f8ec2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Alert",
+            "value": "#e64646",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Call Negative",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Call Neutral",
+            "value": "#0f8ec2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Icon Item",
+            "value": "#0f8ec2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Read Status",
+            "value": "#052b3c85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Read Status Capsule",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Reply",
+            "value": "#052b3c85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Reply Forwarded",
+            "value": "#052b3c85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Stroke/Action",
+            "value": "#e9fdff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Stroke/Neutral Secondary",
+            "value": "#0f8ec214",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Stroke/Reply",
+            "value": "#0f8ec2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Action",
+            "value": "#0f8ec2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Action Fade",
+            "value": "#0f8ec299",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Author",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Body",
+            "value": "#052b3c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Body Secondary",
+            "value": "#052b3c85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Forward Label",
+            "value": "#052b3c85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Forward Name",
+            "value": "#052b3cb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reply Body",
+            "value": "#052b3c85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reply Name",
+            "value": "#052b3cb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Time",
+            "value": "#052b3c85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reaction/Inside My",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reaction/Inside Others",
+            "value": "#052b3c85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reaction/Outside My",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reaction/Outside Others",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Background/Error",
+            "value": "#ff303c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Background/Neutral",
+            "value": "#0d0d0d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Background/Themed",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Background/Themed Fade",
+            "value": "#d6e7ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Icon/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Icon/Neutral",
+            "value": "#0c0d0e",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Icon/Neutral Secondary",
+            "value": "#b4b6b9",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Icon/Themed Fade",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule",
+            "value": "#2e333873",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Secondary",
+            "value": "#eff0f1b8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Chat FAB Android",
+            "value": "#ecedee",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Chat FAB iOS",
+            "value": "#ecedeed6",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Neutral Fade",
+            "value": "#09090914",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Overlay Hard",
+            "value": "#0c0d0ecc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Overlay Secondary",
+            "value": "#0c0d0e99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Sticker Blank",
+            "value": "#edeef2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Surface Ground",
+            "value": "#7ab7e4",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Gradient/Step 1",
+            "value": "#3d434ab2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Gradient/Step 2",
+            "value": "#3d434ab2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Secondary Gradient/Step 1",
+            "value": "#eff0f1b8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Secondary Gradient/Step 2",
+            "value": "#eff0f1b8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Glass Light/Step 1",
+            "value": "#ffffffcc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Glass Light/Step 2",
+            "value": "#ffffff94",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Glass Light/Step 3",
+            "value": "#ffffff3d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Icon/Accent",
+            "value": "#0f8ec2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Icon/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Icon/Secondary",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Elevation 2/Primary",
+            "value": "#0000000f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Elevation 2/Secondary",
+            "value": "#0000000a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Top Bar Android/Color",
+            "value": "#0000000f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Write Bar Android/Color",
+            "value": "#0000000f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Stroke/Contrast",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Stroke/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Stroke/Glass",
+            "value": "#ffffff4d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Stroke/Separator/Primary",
+            "value": "#0c0d0e29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Text/Capsule",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Text/Capsule Secondary",
+            "value": "#0c0d0e",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Neutral",
+            "value": "#0d0d0d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Neutral Fade",
+            "value": "#09090914",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Primary",
+            "value": "#ffffffcc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Themed",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Topbar Android",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Topbar iOS",
+            "value": "#f6f6f6d6",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Disabled/Neutral",
+            "value": "#0d0d0d7a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Disabled/Neutral Fade",
+            "value": "#0909090a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Disabled/Themed",
+            "value": "#4876eb99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Contrast",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Neutral Fade",
+            "value": "#09090914",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Primary",
+            "value": "#0d0d0d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Quaternary",
+            "value": "#bcbdbe",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Secondary",
+            "value": "#515455",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Tertiary",
+            "value": "#898c8c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Themed",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Contrast",
+            "value": "#ffffffb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Contrast Static",
+            "value": "#ffffffb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Neutral Fade",
+            "value": "#0909090a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Primary",
+            "value": "#6f7276a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Quaternary",
+            "value": "#6f7276a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Secondary",
+            "value": "#6f7276a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Tertiary",
+            "value": "#6f7276a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Themed",
+            "value": "#4876eb99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Stroke/Separator/Default/Primary",
+            "value": "#0c0d0e29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Stroke/Separator/Default/Secondary",
+            "value": "#0c0d0e0f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Contrast",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Primary",
+            "value": "#0d0d0d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Secondary",
+            "value": "#0d0d0d85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Themed",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Contrast",
+            "value": "#ffffffa3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Contrast Static",
+            "value": "#ffffffb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Primary",
+            "value": "#6f7276a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Secondary",
+            "value": "#6f7276a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Themed",
+            "value": "#4876eb99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Emoji Area Android",
+            "value": "#f6f6f6",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Input Android",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Input iOS",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Neutral Fade",
+            "value": "#09090914",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Surface Android",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Surface iOS",
+            "value": "#f6f6f6d6",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Icon/Neutral",
+            "value": "#0c0d0e",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Icon/Neutral Secondary",
+            "value": "#898c8c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Icon/Neutral Tertiary",
+            "value": "#898c8c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Icon/Themed",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Stroke/Area Separator",
+            "value": "#0c0d0e0f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Stroke/Input",
+            "value": "#0c0d0e0f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Stroke/Themed",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Input",
+            "value": "#0c0d0e",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Input MD Link",
+            "value": "#416afa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Input Placeholder",
+            "value": "#0c0d0e66",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Primary",
+            "value": "#0c0d0e",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Reply Message",
+            "value": "#0c0d0eb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Reply To",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Secondary",
+            "value": "#0c0d0e85",
+            "var": "",
+            "rootAlias": ""
+          }
+        ],
+        "number": [
+          {
+            "name": "Common/Shadows/Top Bar Android/Offset X",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Top Bar Android/Offset Y",
+            "value": "1rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Top Bar Android/Blur",
+            "value": "3rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Write Bar Android/Offset Y",
+            "value": "-0.5rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Write Bar Android/Offset X",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Write Bar Android/Blur",
+            "value": "3rem",
+            "var": "",
+            "rootAlias": ""
+          }
+        ],
+        "string": [
+          {
+            "name": "Appearance Switch",
+            "value": "Leaves · Light Mode",
+            "var": "",
+            "rootAlias": ""
+          }
+        ]
+      },
+      {
+        "mode": {
+          "name": "Leaves · Dark Mode",
+          "id": "223:1"
+        },
+        "color": [
+          {
+            "name": "Bubbles/Incoming/Background/Action",
+            "value": "#cfcfcf",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Action Fade",
+            "value": "#cfcfcf80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Action Secondary",
+            "value": "#ffffff1f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Bubble",
+            "value": "#232e3a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Icon Item",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Icon Item Negative",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Mention",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Mention Pressed",
+            "value": "#ffffff3d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Surface Secondary",
+            "value": "#ffffff1f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/BubbleGradient/Step 1",
+            "value": "#3b3f5e",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/BubbleGradient/Step 2",
+            "value": "#32343d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Reaction/Inside My",
+            "value": "#007aff",
+            "var": "Color/Brand/Primary",
+            "rootAlias": "Color/Brand/Primary"
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Reaction/Inside Others",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Reaction/Outside My",
+            "value": "#007aff",
+            "var": "Color/Brand/Primary",
+            "rootAlias": "Color/Brand/Primary"
+          },
+          {
+            "name": "Bubbles/Incoming/Background/Reaction/Outside Others",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Action",
+            "value": "#32343e",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Action Secondary",
+            "value": "#ffffffb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Alert",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Call Negative",
+            "value": "#ff705d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Call Neutral",
+            "value": "#ffffffa3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Icon Item",
+            "value": "#ffffffa3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Read Status",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Read Status Capsule",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Reply",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Icon/Reply Forwarded",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Stroke/Action",
+            "value": "#292e33",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Stroke/Neutral Secondary",
+            "value": "#ffffff1a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Stroke/Reply",
+            "value": "#ffffff66",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Action",
+            "value": "#007aff",
+            "var": "Color/Brand/Primary",
+            "rootAlias": "Color/Brand/Primary"
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Action Fade",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Author",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Body",
+            "value": "#ffffffb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Body Secondary",
+            "value": "#ffffff70",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Forward Label",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Forward Name",
+            "value": "#ffffffbd",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reply Body",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reply Name",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Time",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reaction/Inside My",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reaction/Inside Others",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reaction/Outside My",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Incoming/Text/Reaction/Outside Others",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Action",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Action Fade",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Action Secondary",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Bubble",
+            "value": "#6965e5",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Icon Item",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Icon Item Negative",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Mention",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Mention Pressed",
+            "value": "#ffffff3d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Surface Secondary",
+            "value": "#ffffff1f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/BubbleGradient/Step 1",
+            "value": "#8849b4",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/BubbleGradient/Step 2",
+            "value": "#5d6ae5",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Reaction/Inside My",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Reaction/Inside Others",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Reaction/Outside My",
+            "value": "#007aff",
+            "var": "Color/Brand/Primary",
+            "rootAlias": "Color/Brand/Primary"
+          },
+          {
+            "name": "Bubbles/Outgoing/Background/Reaction/Outside Others",
+            "value": "#ffffff29",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Action",
+            "value": "#6965e5",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Action Secondary",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Alert",
+            "value": "#e64646",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Call Negative",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Call Neutral",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Icon Item",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Read Status",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Read Status Capsule",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Reply",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Icon/Reply Forwarded",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Stroke/Action",
+            "value": "#735acd",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Stroke/Neutral Secondary",
+            "value": "#ffffff1a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Stroke/Reply",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Action",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Action Fade",
+            "value": "#ffffffb8",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Author",
+            "value": "#00ff11",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Body",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Body Secondary",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Forward Label",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Forward Name",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reply Body",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reply Name",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Time",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reaction/Inside My",
+            "value": "#5d6ae5",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reaction/Inside Others",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reaction/Outside My",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Bubbles/Outgoing/Text/Reaction/Outside Others",
+            "value": "#ffffffe0",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Background/Error",
+            "value": "#ff444f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Background/Neutral",
+            "value": "#e7e7e7",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Background/Themed",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Background/Themed Fade",
+            "value": "#b2d0fa",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Icon/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Icon/Neutral",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Icon/Neutral Secondary",
+            "value": "#ffffff70",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Action/Icon/Themed Fade",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule",
+            "value": "#2e333873",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Secondary",
+            "value": "#3d434acc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Chat FAB Android",
+            "value": "#3d434a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Chat FAB iOS",
+            "value": "#3d434ad6",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Neutral Fade",
+            "value": "#e7e7e717",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Overlay Hard",
+            "value": "#0c0d0ecc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Overlay Secondary",
+            "value": "#0c0d0e99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Sticker Blank",
+            "value": "#414346",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Surface Ground",
+            "value": "#141414",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Gradient/Step 1",
+            "value": "#3b3f5eb2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Gradient/Step 2",
+            "value": "#32343db2",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Secondary Gradient/Step 1",
+            "value": "#3b3f5e",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Capsule Secondary Gradient/Step 2",
+            "value": "#32343d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Glass Light/Step 1",
+            "value": "#383e45cc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Glass Light/Step 2",
+            "value": "#383e4585",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Background/Glass Light/Step 3",
+            "value": "#383e4552",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Icon/Accent",
+            "value": "#007aff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Icon/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Icon/Secondary",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Elevation 2/Primary",
+            "value": "#00000033",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Elevation 2/Secondary",
+            "value": "#00000026",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Top Bar Android/Color",
+            "value": "#00000029",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Write Bar Android/Color",
+            "value": "#00000029",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Stroke/Contrast",
+            "value": "#ffffffcc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Stroke/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Stroke/Glass",
+            "value": "#383e4570",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Stroke/Separator/Primary",
+            "value": "#ffffff1f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Text/Capsule",
+            "value": "#ffffffcc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Text/Capsule Secondary",
+            "value": "#ffffffcc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Neutral",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Neutral Fade",
+            "value": "#ffffff14",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Primary",
+            "value": "#ffffffcc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Themed",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Topbar Android",
+            "value": "#1e1f24",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Default/Topbar iOS",
+            "value": "#1e1f24d6",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Disabled/Neutral",
+            "value": "#ffffff66",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Disabled/Neutral Fade",
+            "value": "#ffffff0a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Background/Disabled/Themed",
+            "value": "#516fda99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Contrast",
+            "value": "#0d0d0d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Neutral Fade",
+            "value": "#ffffff14",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Primary",
+            "value": "#ffffffcc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Quaternary",
+            "value": "#4f5050",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Secondary",
+            "value": "#ffffff70",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Tertiary",
+            "value": "#797c7c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Default/Themed",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Contrast",
+            "value": "#0d0d0da3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Contrast Static",
+            "value": "#ffffff7a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Neutral Fade",
+            "value": "#ffffff0a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Primary",
+            "value": "#b7b8b9a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Quaternary",
+            "value": "#b7b8b9a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Secondary",
+            "value": "#b7b8b9a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Tertiary",
+            "value": "#b7b8b9a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Icon/Disabled/Themed",
+            "value": "#516fda99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Stroke/Separator/Default/Primary",
+            "value": "#ffffff1f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Stroke/Separator/Default/Secondary",
+            "value": "#ffffff0f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Contrast",
+            "value": "#0d0d0d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Contrast Static",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Primary",
+            "value": "#ffffffcc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Secondary",
+            "value": "#ffffff70",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Default/Themed",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Contrast",
+            "value": "#0d0d0da3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Contrast Static",
+            "value": "#ffffff7a",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Primary",
+            "value": "#b7b8b9a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Secondary",
+            "value": "#b7b8b9a3",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Topbar/Text/Disabled/Themed",
+            "value": "#516fda99",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Emoji Area Android",
+            "value": "#181818",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Input Android",
+            "value": "#1e1f24",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Input iOS",
+            "value": "#0000003d",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Neutral Fade",
+            "value": "#e7e7e717",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Surface Android",
+            "value": "#1e1f24",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Background/Surface iOS",
+            "value": "#1e1f24d6",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Icon/Neutral",
+            "value": "#ffffffcc",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Icon/Neutral Secondary",
+            "value": "#ffffff70",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Icon/Neutral Tertiary",
+            "value": "#797c7c",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Icon/Themed",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Stroke/Area Separator",
+            "value": "#e7e7e70f",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Stroke/Input",
+            "value": "#e7e7e700",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Stroke/Themed",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Input",
+            "value": "#e7e7e7",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Input MD Link",
+            "value": "#4a72ff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Input Placeholder",
+            "value": "#e7e7e757",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Primary",
+            "value": "#ffffff",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Reply Message",
+            "value": "#e7e7e7bd",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Reply To",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Writebar/Text/Secondary",
+            "value": "#ffffff80",
+            "var": "",
+            "rootAlias": ""
+          }
+        ],
+        "number": [
+          {
+            "name": "Common/Shadows/Top Bar Android/Offset X",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Top Bar Android/Offset Y",
+            "value": "1rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Top Bar Android/Blur",
+            "value": "3rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Write Bar Android/Offset X",
+            "value": "0rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Write Bar Android/Offset Y",
+            "value": "1rem",
+            "var": "",
+            "rootAlias": ""
+          },
+          {
+            "name": "Common/Shadows/Write Bar Android/Blur",
+            "value": "3rem",
+            "var": "",
+            "rootAlias": ""
+          }
+        ],
+        "string": [
+          {
+            "name": "Appearance Switch",
+            "value": "Leaves · Dark Mode",
+            "var": "",
+            "rootAlias": ""
+          }
+        ]
+      }
+    ]
+  }
+]

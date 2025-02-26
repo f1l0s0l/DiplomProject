@@ -14,7 +14,7 @@ final class SelectThemesViewModel {
         }
     }
     
-    private(set) var themeTypes: [ThemeType] = []
+    private(set) var themeTypes: [CodeGenThemeType] = []
     
     private(set) var selectedIndex: Int
     private(set) var oldIndex: Int
@@ -29,9 +29,9 @@ final class SelectThemesViewModel {
         self.themeProvider = themeProvider
         self.coodrinator = coodrinator
         
-        themeTypes = ThemeType.allCases
+        themeTypes = CodeGenThemeType.allCases
         
-        let themeType = ThemeType(rawValue: UserDefaults.standard.object(forKey: "CurrentThemeType") as? Int ?? 0)
+        let themeType = CodeGenThemeType(rawValue: UserDefaults.standard.object(forKey: "CurrentThemeType") as? Int ?? 0)
                 
         selectedIndex = themeTypes.firstIndex { $0 == themeType } ?? 0
         oldIndex = selectedIndex
@@ -54,7 +54,7 @@ final class SelectThemesViewModel {
     
     // MARK: - Private methods
     
-    private func writeToDataBase(selectedThemeType: ThemeType) {
+    private func writeToDataBase(selectedThemeType: CodeGenThemeType) {
         UserDefaults.standard.set(selectedThemeType.rawValue, forKey: "CurrentThemeType")
         
         themeProvider.update(themeType: selectedThemeType)

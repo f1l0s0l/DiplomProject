@@ -1,6 +1,6 @@
 import UIKit
 
-struct NavigationBarTheme {
-    let background: UIColor
-    let title: UIColor
+public struct NavigationBarTheme {
+    public let background: UIColor
+    public let title: UIColor
 }

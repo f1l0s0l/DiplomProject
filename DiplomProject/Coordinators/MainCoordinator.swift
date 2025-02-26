@@ -22,7 +22,7 @@ final class MainCoordinator {
         session = MockSessionService()
         client = MockAPIClient()
         
-        let themeType = ThemeType(rawValue: UserDefaults.standard.object(forKey: "CurrentThemeType") as? Int ?? 0)
+        let themeType = CodeGenThemeType(rawValue: UserDefaults.standard.object(forKey: "CurrentThemeType") as? Int ?? 0)
         themeProvider = ThemeProvider(themeType: themeType ?? .bumble)
         
         subscribeSession()

@@ -1,16 +1,8 @@
-enum ThemeType: Int, CaseIterable {
-    case bumble
-    case pink
-    case monochrome
-}
-
 extension CommonTheme {
-    init(themeType: ThemeType) {
+    init(themeType: CodeGenThemeType) {
         switch themeType {
         case .bumble:
             self = .bumble
-        case .pink:
-            self = .pink
         case .monochrome:
             self = .monochrome
         }
@@ -18,24 +10,20 @@ extension CommonTheme {
 }
 
 extension NavigationBarTheme {
-    init(themeType: ThemeType) {
+    init(themeType: CodeGenThemeType) {
         switch themeType {
         case .bumble:
             self = .bumble
-        case .pink:
-            self = .pink
         case .monochrome:
             self = .monochrome
         }
     }
 }
 extension TabBarTheme {
-    init(themeType: ThemeType) {
+    init(themeType: CodeGenThemeType) {
         switch themeType {
         case .bumble:
             self = .bumble
-        case .pink:
-            self = .pink
         case .monochrome:
             self = .monochrome
         }
